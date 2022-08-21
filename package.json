@@ -1,0 +1,22 @@
+{
+  "name": "danielhogstrom.github.io",
+  "version": "1.0.0",
+  "description": "tool to make api calls",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielhogstrom/danielhogstrom.github.io.git"
+  },
+  "author": "Daniel Högström",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielhogstrom/danielhogstrom.github.io/issues"
+  },
+  "homepage": "https://github.com/danielhogstrom/danielhogstrom.github.io#readme",
+  "dependencies": {
+    "jest": "^28.1.3"
+  }
+}
