@@ -62,15 +62,17 @@ body {
   position: relative;
 }
 .window-top::before {
-  content: 'New Tab';
+  content: 'Google Maps';
   font-size: 4px;
+  font-weight: bold;
   position: absolute;
   top: 3.5px;
   left: 3px;
   color: #fff;
 }
 .window-top::after {
-  content: 'x';
+  content: 'X';
+  font-weight: bold;
   color: #fff;
   font-size: 4px;
   position: absolute;
@@ -91,7 +93,8 @@ body {
 .iframe {
   position: absolute;
   top: 10px;
-  left: -85px;
+  left: -90px;
+  border-radius: 0 0 5px 5px;
 }
 /*
 .desk {
